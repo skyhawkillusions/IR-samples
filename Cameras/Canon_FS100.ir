@@ -1,0 +1,131 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: Camera
+# BRAND: Canon
+# MODEL: FS100
+# REMOTE: Wireless Controller WL-D88
+# COMPATIBLE WITH: VIXIA HF10, HF100, FS100
+# PROTOCOL: NECext
+# Believed to have been originally packaged with the FS100
+# https://support.usa.canon.com/kb/index?page=content&id=ART102397
+# 
+name: Start/Stop
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 03 FC 00 00
+# 
+name: Function
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 46 B9 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 25 DA 00 00
+# 
+name: Playlist
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 48 B7 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 20 DF 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 21 DE 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 23 DC 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 22 DD 00 00
+#
+name: Frame_Reverse
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 50 AF 00 00
+#
+name: Fast_Reverse
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 4B B4 00 00
+#
+name: Play
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 01 FE 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 04 FB 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 17 E8 00 00
+#
+name: Photo
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 30 CF 00 00
+#
+name: Zoom_T
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 1C E3 00 00
+#
+name: Zoom_W
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 1D E2 00 00
+#
+name: Set
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 24 DB 00 00
+#
+name: Frame_Advance
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 10 EF 00 00
+# 
+name: Fast_Forward
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 4D B2 00 00
+#
+name: Display
+type: parsed
+protocol: NECext
+address: 83 E3 00 00
+command: 4E B1 00 00

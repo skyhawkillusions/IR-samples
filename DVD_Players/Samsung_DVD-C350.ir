@@ -1,0 +1,168 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: DVD Player
+# BRAND: Samsung
+# MODEL: DVD-C350
+# REMOTE: AK59-00103C
+# PROTOCOL: NEC42
+# https://avblinq.avbportal.com/assets/products/documents/DVD-E360.pdf
+# 
+name: Power
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 91 00 00 00
+# 
+name: Open/Close
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 8C 00 00 00
+# 
+name: Disc Menu
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 94 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 9D 00 00 00
+# 
+name: Repeat A-B
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: A8 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: AC 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 9C 00 00 00
+# 
+name: Bookmark
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: A9 00 00 00
+# 
+name: Video Sel.
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 22 00 00 00
+# 
+name: FFW
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 9E 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 9F 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: A2 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: A0 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: A1 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 8B 00 00 00
+# 
+name: Return
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 95 00 00 00
+# 
+name: Info
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 8F 00 00 00
+# 
+name: Cancel
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: A4 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 97 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 98 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 9A 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 99 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 9B 00 00 00
+#
+# shares functionality with Up
+name: Subtitle
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 97 00 00 00
+# 
+# shares functionality with Left
+name: Audio
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 9A 00 00 00
+# 
+# shares functionality with Right
+name: Title Menu
+type: parsed
+protocol: NEC42
+address: 66 00 00 00
+command: 99 00 00 00

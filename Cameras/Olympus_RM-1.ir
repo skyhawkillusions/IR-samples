@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: Camera
+# BRAND: Olympus
+# SERIES: Camedia
+# MODEL: 
+# REMOTE: RM-1
+# PROTOCOL: NECext
+# https://www.manualslib.com/manual/504924/Olympus-Rm-1.html#manual
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 86 3B 00 00
+command: 01 FE 00 00
+# 
+name: Zoom_W
+type: parsed
+protocol: NECext
+address: 86 3B 00 00
+command: 02 FD 00 00
+# 
+name: Zoom_T
+type: parsed
+protocol: NECext
+address: 86 3B 00 00
+command: 03 FC 00 00
+# 
+name: -
+type: parsed
+protocol: NECext
+address: 86 3B 00 00
+command: 04 FB 00 00
+# 
+name: +
+type: parsed
+protocol: NECext
+address: 86 3B 00 00
+command: 05 FA 00 00

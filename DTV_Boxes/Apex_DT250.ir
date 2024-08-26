@@ -1,0 +1,189 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: DTV Converter Box
+# BRAND: Apex
+# MODEL: DT250
+# REMOTE: RCNN131
+# PROTOCOL: NECext, RAW
+# https://dig.abclocal.go.com/wls/documents/APEX%20DT-250.pdf
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 15 EA 00 00
+# 
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3662 1799 527 1147 528 1149 526 1148 526 570 498 1148 527 570 498 1148 527 543 525 1148 527 542 526 544 524 1148 527 1151 524 542 526 1149 525 543 525 569 499 570 498 541 527 1176 499 1147 528 541 527 1149 526 541 3664 1799 524 541 527 1176 498 542 526 1149 526 1148 527 541 527 1149 525 541 527 1150 525 1148 527 1176 498 542 526 1149 525 542 526 1149 526 542 526 51482 3637 3659 526
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 05 FA 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 06 F9 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 07 F8 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 08 F7 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 09 F6 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 0A F5 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 0B F4 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 0C F3 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 0D F2 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 04 FB 00 00
+# 
+name: -
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 36 C9 00 00
+# 
+name: CCD
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 61 9E 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 70 8F 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 0F F0 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 02 FD 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 03 FC 00 00
+# 
+name: Left
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3666 1802 524 1152 523 1149 526 1148 527 507 561 1177 498 570 498 1149 526 569 499 1153 522 540 528 543 525 1148 527 1148 527 542 526 1177 497 540 528 545 523 543 525 544 524 1149 526 1150 525 542 526 1149 526 568 3638 1800 523 542 526 1149 526 542 526 1150 525 1148 527 570 498 1151 524 541 527 542 526 1151 524 542 526 1149 525 570 498 543 525 1148 526 540 528 51451 3662 3660 525
+# 
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3666 1801 525 1153 549 1122 526 1148 527 545 523 1146 555 515 553 1150 524 516 525 1150 525 544 524 543 551 1122 553 1122 552 543 525 1124 551 516 552 518 550 516 552 514 554 1122 553 1123 552 517 551 1122 552 516 3663 1799 551 515 553 1122 552 516 552 1123 552 1122 552 514 554 1122 552 514 554 515 553 517 551 517 551 1124 551 1122 552 516 552 1123 552 514 554
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 18 E7 00 00
+# 
+name: Recall
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 16 E9 00 00
+# 
+name: Display
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 13 EC 00 00
+# 
+name: Fav_next
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 19 E6 00 00
+# 
+name: Fav_prev
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 10 EF 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 14 EB 00 00
+# 
+name: MTS
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 64 9B 00 00
+# 
+name: Guide
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 12 ED 00 00
+# 
+name: Signal
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 17 E8 00 00
+# 
+name: Fav
+type: parsed
+protocol: NECext
+address: 0C FB 00 00
+command: 11 EE 00 00

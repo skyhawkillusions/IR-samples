@@ -1,0 +1,272 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: TV/DVD
+# BRAND: Panasonic
+# MODEL: PV-27D52
+# REMOTE: LSSQ0346
+# https://www.manua.ls/panasonic/pv-27d52/manual
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+# 
+name: Open/Close
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 10 00 00 00
+# 
+name: FM/TV
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 03
+command: E0 02 00 00
+# 
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 20 03 00 00
+# 
+name: Timer
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: B0 00 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 03 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+# 
+name: Surround
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: E0 01 00 00
+# 
+name: R Tune
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 70 03 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 20 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 30 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 01 00 00
+# 
+name: 7
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 60 01 00 00
+# 
+name: 8
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 70 01 00 00
+# 
+name: 9
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 80 01 00 00
+# 
+name: 100
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 02
+command: C0 01 00 00
+# 
+name: 0
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 90 01 00 00
+# 
+name: Add/Dlt/Clear
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 30 00 00 00
+# 
+name: Audio
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 30 03 00 00
+# 
+name: Angle
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 00 01 00 00
+# 
+name: Subtitle
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 10 01 00 00
+# 
+name: Disp Menu
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 90 03 00 00
+# 
+name: Title
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: B0 01 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 00 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: A0 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: B0 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: F0 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: E0 00 00 00
+# 
+name: Set
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 90 00 00 00
+# 
+name: Action
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 20 01 00 00
+# 
+name: Skip-
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 90 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: A0 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: A0 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 03
+command: 10 00 00 00
+# 
+name: Slow-
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 00 00 00
+# 
+name: Slow+
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 00 00 00
+# 
+name: DVD
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 03
+command: F0 03 00 00
+# 
+name: Return
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 10 00 00 00

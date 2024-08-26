@@ -1,0 +1,129 @@
+Filetype: IR signals file
+Version: 1
+#
+# TYPE: Stereo System 
+# BRAND: Panasonic
+# MODEL: SC-HC37
+# REMOTE: N2QAYC000056
+# PROTOCOL: Kaseikyo
+# https://help.na.panasonic.com/wp-content/uploads/2023/02/SCHC37_RQT9633_4P_ENG_ESP.pdf
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: D1 03 00 00
+# 
+name: iPod Eject
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 01 03 00 00
+# 
+name: CD Eject
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 11 00 00 00
+# 
+name: Select iPod
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 81 03 00 00
+# 
+name: Select CD
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: A0 00 00 00
+# 
+name: Select Radio
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: 40 02 00 00
+# 
+name: Prev
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 91 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 61 00 00 00
+# 
+name: Next
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: A1 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 01 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 10 02 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 00 02 00 00
+# 
+name: Setup
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 51 03 00 00
+# 
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 20 03 00 00
+# 
+name: Display
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 51 01 00 00
+# 
+name: Sound
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: 01 03 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: B1 03 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 03
+command: D1 03 00 00
+# 
+name: OK
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 03
+command: B1 03 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 03
+command: C1 03 00 00

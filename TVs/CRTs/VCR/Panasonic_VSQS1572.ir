@@ -1,0 +1,60 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: TV/VCR/FM RADIO
+# BRAND: Panasonic
+# SERIES: Omnivision
+# MODEL: PV-M13x9W 
+# REMOTE: VSQS1572
+# PROTOCOL: Kaseikyo
+# https://c.searspartsdirect.com/mmh/lis_pdf/OWNM/98050512.pdf
+# https://c.searspartsdirect.com/mmh/lis_pdf/OWNM/99040046.pdf
+# The TV is most likely donated/destroyed, unable to verify provenance. 
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: D0 03 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 00 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: A0 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 40 03 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 50 03 00 00
+# 
+name: FM/TV
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 03
+command: E0 02 00 00

@@ -1,0 +1,267 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: DVD Player
+# BRAND: Memorex
+# MODEL: MVD20xx
+# REMOTE: HS-M449PB-GY-320
+# PROTOCOL: NEC
+# NOTE: MVD2019 in possession, but not certain of compatibility
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 96 00 00 00
+# 
+name: Display
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 91 00 00 00
+# 
+name: Open_Close
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C7 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C5 00 00 00
+# 
+name: Random
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D5 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 94 00 00 00
+# 
+name: A-B
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D4 00 00 00
+# 
+name: Step
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 89 00 00 00
+# 
+name: Slow_F
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CB 00 00 00
+# 
+name: Rev
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 88 00 00 00
+# 
+name: Fwd
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C8 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D7 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8B 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C9 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 95 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CA 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D1 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D0 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 90 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D2 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 93 00 00 00
+# 
+name: Return
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8A 00 00 00
+# 
+name: Setup
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D3 00 00 00
+# 
+name: DVD_menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C6 00 00 00
+# 
+name: Title_menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 84 00 00 00
+# 
+name: Subtitle_menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 86 00 00 00
+# 
+name: Audio_menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C4 00 00 00
+# 
+name: Angle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C2 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CE 00 00 00
+# 
+name: Audio_mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CF 00 00 00
+# 
+name: Search
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 92 00 00 00
+# 
+name: Playback_Ctrl
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 87 00 00 00
+# 
+name: 1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 81 00 00 00
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 83 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C1 00 00 00
+# 
+name: 4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 82 00 00 00
+# 
+name: 5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 80 00 00 00
+# 
+name: 6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C0 00 00 00
+# 
+name: 7
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8D 00 00 00
+# 
+name: 8
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8F 00 00 00
+# 
+name: 9
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CD 00 00 00
+# 
+name: 0
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CC 00 00 00

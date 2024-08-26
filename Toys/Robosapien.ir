@@ -1,0 +1,364 @@
+Filetype: IR signals file
+Version: 1
+#
+# Robosapien Remote
+# 
+name: Right Arm Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7008 3477 822 870 872 870 874 886 872 859 872 873 871 844 874 3508 820
+# 
+name: Right Arm Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6802 3441 873 856 875 871 873 843 875 856 875 3479 821 898 873 857 874
+# 
+name: Right Arm In
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6722 3477 821 869 874 872 872 843 875 897 874 3480 820 855 875 3508 819
+# 
+name: Right Arm Out
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7014 3434 872 856 875 872 873 844 874 857 874 870 875 3494 820 870 874
+# 
+name: Tilt Body Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6934 3473 821 870 874 872 873 845 873 899 873 831 874 3494 821 3520 821
+# 
+name: Left Arm Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7121 3452 874 858 874 870 875 845 873 3470 871 832 873 886 873 3469 819
+# 
+name: Left Arm Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6511 3484 822 870 874 871 874 844 874 3507 821 3494 820 898 873 858 874
+# 
+name: Left Arm In
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6429 3515 788 871 873 870 875 884 875 3469 820 3494 821 897 874 3470 819
+# 
+name: Left Arm Out
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7037 3489 820 870 873 871 873 843 875 3508 820 884 873 3453 875 857 874
+# 
+name: Tilt Body Left
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6639 3478 818 871 872 873 872 885 873 3468 820 888 869 3496 819 3480 820
+# 
+name: Walk Forward
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6590 3449 873 857 875 871 874 845 873 858 874 3481 821 3508 820 871 874
+# 
+name: Turn Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7009 3476 818 869 874 873 871 886 872 889 842 872 873 845 873 859 872
+# 
+name: STOP
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6636 3477 819 870 874 872 872 885 873 3467 820 3495 818 3508 819 872 872
+# 
+name: Turn Left
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6856 3470 821 870 874 870 875 885 874 3467 821 885 873 884 875 858 874
+# 
+name: Walk Backward
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6322 3472 817 871 874 871 874 846 873 898 874 3482 820 3469 873 3469 820
+# 
+name: Right Sensor Prg
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6771 3471 818 911 873 832 873 3498 818 875 869 873 872 3497 819 872 872
+# 
+name: Sonic Sensor Prg
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6932 3475 818 872 872 871 874 3455 874 857 875 3482 820 857 874 899 873
+# 
+name: Left Sensor Prg
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6721 3480 820 875 869 873 872 3456 873 858 874 872 873 3455 821 3521 821
+# 
+name: Master Cmd Prg
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6851 3475 816 875 869 875 870 3501 816 875 869 876 869 849 869 903 869
+# 
+name: Program Play
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6964 3487 821 910 875 832 873 3495 821 871 874 871 874 883 876 3468 822
+# 
+name: R. Hand Thump
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6779 3435 877 860 874 3490 820 858 875 900 875 833 874 887 874 3476 821
+# 
+name: R. Hand Pickup
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6643 3449 870 864 870 3494 818 861 873 903 872 3494 818 861 872 862 872
+# 
+name: Lean Backward
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6570 3485 821 872 875 3493 820 899 876 860 875 3492 821 900 875 3478 822
+# 
+name: R. Hand Throw
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6774 3478 820 872 874 3488 875 847 873 858 876 873 874 3502 821 871 875
+# 
+name: Sleep
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6781 3481 821 871 876 3491 822 898 876 859 876 872 876 3465 821 3533 820
+# 
+name: L. Hand Thump
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7024 3486 821 872 875 3493 821 900 874 3480 821 889 872 847 875 3521 820
+# 
+name: L. Hand Pickup
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6435 3496 818 876 846 3520 819 903 846 3507 818 3507 819 903 846 888 847
+# 
+name: Lean Forward
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7105 3490 821 873 875 3494 821 902 873 3480 822 3508 819 901 874 3481 820
+# 
+name: L. Hand Throw
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6812 3496 819 874 874 3497 819 901 874 3483 819 887 874 3509 820 874 874
+# 
+name: Listen
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6275 3491 819 873 874 3492 821 930 844 3480 820 886 874 3507 820 3491 821
+# 
+name: Forward Step
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6412 3483 820 914 875 3494 821 861 874 861 875 3492 876 3465 823 913 876
+# 
+name: R. Turn Step
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6979 3502 820 877 872 3497 820 900 876 861 875 874 876 847 876 861 876
+# 
+name: Reset
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6522 3459 876 860 876 3496 821 859 876 3524 820 3507 823 3520 823 875 874
+# 
+name: L. Turn Step
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6602 3503 822 874 875 3498 874 849 874 3484 874 836 874 888 876 860 877
+# 
+name: Backward Step
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7057 3503 823 914 876 3495 823 859 877 861 876 3497 875 3468 823 3535 822
+# 
+name: R. Sens. Prg. Ex.
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6573 3452 870 865 872 3500 818 3526 818 878 871 879 871 3473 872 865 872
+# 
+name: Son. Sens. Prg. Ex.
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6785 3484 822 873 876 3496 821 3523 820 875 874 3496 821 902 874 863 873
+# 
+name: L. Sens. Prg. Ex.
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6570 3489 820 873 875 3498 819 3523 820 875 873 877 873 3510 821 3496 820
+# 
+name: Mas. Cmd. Prg. Ex.
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6654 3495 819 875 874 3499 821 3524 821 875 874 3500 873 849 875 865 872
+# 
+name: Wake Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6677 3504 822 871 877 3495 821 3520 822 872 876 873 876 845 877 3521 822
+# 
+name: R. Hand Sweep
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6894 3500 821 3527 791 889 873 889 875 864 873 878 872 848 875 3524 823
+# 
+name: High Five
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6527 3505 822 3502 820 888 876 889 876 863 875 3503 820 860 877 904 875
+# 
+name: R. Hand Stk. 1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6527 3505 822 3499 823 888 876 891 874 863 875 3500 823 902 876 3487 822
+# 
+name: Burp
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6821 3503 822 3502 821 888 877 890 876 862 877 875 877 3475 822 917 875
+# 
+name: R. Hand Stk. 2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6686 3511 821 3541 821 888 876 849 876 862 876 876 876 3514 822 3499 876
+# 
+name: L. Hand Sweep
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6875 3491 822 3539 824 888 877 848 877 3527 824 888 877 880 845 3487 877
+# 
+name: Talk Back
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6340 3450 849 3516 820 893 847 877 848 3556 821 3517 820 905 849 890 849
+# 
+name: L. Hand Stk. 1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6289 3497 824 3543 821 888 877 849 876 3488 876 3501 823 860 878 3530 822
+# 
+name: Whistle
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6902 3507 821 3501 877 866 846 890 876 3490 822 888 877 3520 819 877 875
+# 
+name: L. Hand Stk. 2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6584 3455 877 3490 823 888 877 851 875 3533 821 888 877 3477 876 3490 823
+# 
+name: Bulldozer
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6292 3498 822 3504 819 890 874 889 877 863 876 3502 822 3528 822 875 876
+# 
+name: R. Hand Stk. 3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6878 3495 821 3503 823 890 876 891 876 865 875 879 875 850 877 863 877
+# 
+name: Roar
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6338 3489 823 3502 875 835 877 888 878 3489 822 3514 877 3474 823 916 876
+# 
+name: L. Hand Stk. 3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6585 3496 823 3503 876 835 878 890 877 3490 823 890 876 890 877 863 877
+# 
+name: Oops!
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7061 3469 876 3488 823 890 875 851 875 903 877 3504 821 3486 877 3490 821
+# 
+name: Dance Demo
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6687 3513 822 3543 822 890 875 3475 877 863 876 3503 823 861 877 905 875
+# 
+name: Demo 1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6534 3507 824 3544 822 888 878 3476 878 865 875 878 875 3478 822 915 878
+# 
+name: Demo 2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6504 3494 822 3542 823 889 876 3477 876 865 874 879 874 3476 823 3543 822
+# 
+name: All Demo
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6663 3499 822 3502 823 890 875 3518 822 874 878 877 876 850 876 904 876
+# 
+name: Power Off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6742 3464 873 3495 820 892 873 3522 820 879 873 881 873 854 873 3536 820

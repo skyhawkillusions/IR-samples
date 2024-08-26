@@ -1,0 +1,105 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: Camera
+# BRAND: Canon
+# MODEL: H660
+# REMOTE: Wireless Controller WL-300
+# PROTOCOL: NECext
+# https://global.canon/en/c-museum/product/8mmvc325.html
+# 
+name: Start/Stop
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 03 FC 00 00
+# 
+name: Zoom_W
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 1D E2 00 00
+# 
+name: Zoom_T
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 1C E3 00 00
+# 
+name: Fade_Start/Stop
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 11 EE 00 00
+# 
+name: Chr_Title
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 0E F1 00 00
+# 
+name: Date
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 0F F0 00 00
+# 
+name: Counter_Reset
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 0D F2 00 00
+# 
+name: Tape_Return
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 06 F9 00 00
+# 
+name: On_Screen
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 1B E4 00 00
+# 
+name: Rew
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 02 FD 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 01 FE 00 00
+# 
+name: FF
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 00 FF 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 17 E8 00 00
+# 
+name: Rec
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 07 F8 00 00
+# 
+name: F.Adv
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 10 EF 00 00
+# 
+name: Pause/Still
+type: parsed
+protocol: NECext
+address: 85 76 00 00
+command: 04 FB 00 00

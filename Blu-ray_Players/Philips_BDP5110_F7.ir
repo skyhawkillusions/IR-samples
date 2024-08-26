@@ -1,0 +1,285 @@
+Filetype: IR signals file
+Version: 1
+#
+# TYPE: Blu-ray Disc Player
+# BRAND: Philips
+# MODEL: BDP5110/F7 
+# REMOTE: NB540
+# PROTOCOL: RC6
+# https://www.documents.philips.com/assets/20230823/603123298ccc41e08a96b06700badc79.pdf
+# 
+name: POWER
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 0C 00 00 00
+# 
+name: ZOOM
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: D3 00 00 00
+# 
+name: BONUSVIEW
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 5D 00 00 00
+# 
+name: REPEAT
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 1D 00 00 00
+# 
+name: REPEAT_A-B
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 3B 00 00 00
+# 
+name: RED
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 6D 00 00 00
+# 
+name: GREEN
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 6E 00 00 00
+# 
+name: BLUE
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 70 00 00 00
+# 
+name: YELLOW
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 6F 00 00 00
+# 
+name: HOME
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 92 00 00 00
+# 
+name: MENU
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 9A 00 00 00
+# 
+name: TOP_MENU
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 9C 00 00 00
+# 
+name: OK
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 5C 00 00 00
+# 
+name: UP
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 58 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 59 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 5A 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 5B 00 00 00
+# 
+name: BACK
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 83 00 00 00
+# 
+name: INFO
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 0F 00 00 00
+#
+name: PREVIOUS
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 21 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 2C 00 00 00
+# 
+name: PAUSE
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 30 00 00 00
+# 
+name: NEXT
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 20 00 00 00
+# 
+name: REVERSE
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 29 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 31 00 00 00
+# 
+name: FORWARD
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 28 00 00 00
+# 
+name: VOL_UP
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: VOL_DN
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: EJECT
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 42 00 00 00
+# 
+name: CH_UP
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 20 00 00 00
+# 
+name: CH_DN
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 21 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 00 00 00 00
+# 
+name: SUBTITLE
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 4B 00 00 00
+# 
+name: AUDIO
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 4E 00 00 00
+# 
+name: ANGLE
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: 85 00 00 00
+# 
+name: HDMI
+type: parsed
+protocol: RC6
+address: 46 00 00 00
+command: C6 00 00 00

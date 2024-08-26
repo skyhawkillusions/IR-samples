@@ -1,0 +1,315 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: DVD Recorder/VCR
+# BRAND: Panasonic
+# MODEL: DMR-ES46V
+# REMOTE: EUR7659Y70 
+# PROTOCOL: Kaseikyo
+# https://archive.org/details/manuallib-id-2701843
+#
+name: POWER
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: D0 03 00 00
+# 
+name: DRIVE SELECT
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: C0 02 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 10 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 20 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 30 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 01 00 00
+# 
+name: 7
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 01 00 00
+# 
+name: 8
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 70 01 00 00
+# 
+name: 9
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 80 01 00 00
+# 
+name: 0
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 90 01 00 00
+# 
+name: CANCEL
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 30 00 00 00
+# 
+name: SKIP BKW
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 90 00 00 00
+# 
+name: SKIP FWD
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: A0 00 00 00
+# 
+name: REW
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 00 00 00
+# 
+name: FF
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 00 00 00
+# 
+name: PAUSE
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: A0 00 00 00
+# 
+name: TIME SLIP
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: B0 00 00 00
+# 
+name: DIRECT NAVIGATOR
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: B0 01 00 00
+# 
+name: UP
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 50 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 60 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 70 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 80 01 00 00
+# 
+name: ENTER
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 00 00 00
+# 
+name: SUB MENU
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 00 00 00 00
+# 
+name: AUDIO
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 30 03 00 00
+# 
+name: DISPLAY
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 01 00 00
+# 
+name: REC
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 80 00 00 00
+# 
+name: REC MODE
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 10 01 00 00
+#
+name: TV-POWER
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+#
+name: TV/VIDEO
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 00 00 00
+#
+name: TV-CH +
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 03 00 00
+#
+name: TV-CH -
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00
+#
+name: TV-VOL +
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+#
+name: TV-VOL -
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+# 
+name: Ch +
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 03 00 00
+# 
+name: Ch -
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 03 00 00
+# 
+name: ADD/DLT CH
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 03 00 00
+# 
+name: INPUT SELECT
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 00 01 00 00
+# 
+name: DELETE
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 40 00 00 00
+# 
+name: CM SLIP
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: C0 00 00 00
+# 
+name: SCHEDULE
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: C0 03 00 00
+# 
+name: FUNCTIONS
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 70 01 00 00
+# 
+name: RETURN
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 10 00 00 00
+# 
+name: VCR/TV
+type: parsed
+protocol: Kaseikyo
+address: B1 02 20 01
+command: E0 03 00 00
+# 
+name: CREATE CHAPTER
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 80 01 00 00
+# 
+name: F REC
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 03
+command: 70 00 00 00
+# 
+name: STATUS
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: F0 01 00 00
