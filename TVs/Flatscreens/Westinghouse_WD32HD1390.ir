@@ -4,8 +4,7 @@ Version: 1
 # TYPE: TV
 # BRAND: Westinghouse
 # MODEL: WD32HD1390
-# TV does not have a DVD/Blu-Ray slot, has RCA component video (YPbPr) and stereo audio, 3.5" headphone jack, Digital Audio Out Optical, as well as 3 HDMI inputs, 1 USB-A slot, DTV/TV Coax, and SVGA inputs
-# REMOTE: UNKNOWN, has an NY-49B marking in the battery cover
+# REMOTE: WS-1688
 # 
 name: Power
 type: parsed
