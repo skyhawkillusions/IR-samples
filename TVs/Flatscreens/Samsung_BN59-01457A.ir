@@ -1,0 +1,121 @@
+Filetype: IR signals file
+Version: 1
+#
+# TYPE: TV
+# BRAND: Samsung
+# REMOTE: BN59-01457A
+# PROTOCOL: Samsung32
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+# 
+name: 123
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D2 00 00 00
+# 
+name: Color
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: CE 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 60 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 61 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 65 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 62 00 00 00
+# 
+name: Return
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 58 00 00 00
+# 
+name: Home
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 79 00 00 00
+# 
+name: Play_pa
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: B9 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+# 
+name: Ch_up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
+# 
+name: Ch_dn
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+# 
+name: NETFLIX
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: F3 00 00 00
+# 
+name: Samsung TV Plus
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: B4 00 00 00
+# 
+name: prime video
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: F4 00 00 00
+# 
+name: Disney+
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: DF 00 00 00

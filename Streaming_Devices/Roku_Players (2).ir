@@ -1,0 +1,105 @@
+Filetype: IR signals file
+Version: 1
+#
+# TYPE: Streaming Device
+# BRAND: Roku
+# MODEL: 3930X - Roku Express HD
+# REMOTE: Roku Players Remote
+# PROTOCOL: NECext
+#
+name: Setup
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 61 9E 00 00
+#
+name: Home
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 03 FC 00 00
+#
+name: Back
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 66 99 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 2A D5 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 19 E6 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 33 CC 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 1E E1 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 2D D2 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 55 AA 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 34 CB 00 00
+#
+name: Play_pa
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 4C B3 00 00
+#
+name: Instant_replay
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 78 87 00 00
+#
+name: NETFLIX
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 4B B4 00 00
+#
+name: Disney+
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 11 EE 00 00
+#
+name: hulu
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 4D B2 00 00
+#
+name: sling
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 27 D8 00 00
+#

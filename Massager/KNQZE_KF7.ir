@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+#
+# TYPE: Misc
+# CATEGORY: Foot Massager
+# BRAND: KNQZE
+# MODEL: KF7
+# REMOTE: (UNMARKED)
+# PROTOCOL: NEC
+# https://www.amazon.com/Massager-Kneading-Compression-Multi-Massage-Fasciitis/dp/B0C531MWPJ
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Heat
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Knead
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# 
+name: Air
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 05 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00

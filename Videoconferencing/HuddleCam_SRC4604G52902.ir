@@ -1,0 +1,285 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TYPE: Videoconferencing
+# BRAND: HuddleCam
+# MODEL: HuddleCamHD 20X-G2
+# REMOTE: HC-REMOTE, SRC4604G52902
+# PROTOCOL: NEC
+# NOTE: Found in Wright Brothers Institute
+#
+name: Power
+type: parsed
+protocol: RC5
+address: 09 00 00 00
+command: 0D 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: RC5
+address: 09 00 00 00
+command: 0C 00 00 00
+# 
+name: Cam_1
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 3B 00 00 00
+# 
+name: Cam_2
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 23 00 00 00
+# 
+name: Cam_3
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 0E 00 00 00
+# 
+
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 01 00 00 00
+# 
+
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 02 00 00 00
+# 
+
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 03 00 00 00
+# 
+
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 04 00 00 00
+# 
+
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 05 00 00 00
+# 
+
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 06 00 00 00
+# 
+
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 07 00 00 00
+# 
+
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 08 00 00 00
+# 
+
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 09 00 00 00
+# 
+name: Set
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 27 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 00 00 00 00
+# 
+name: Call
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 2D 00 00 00
+# 
+name: Zoom_F_in
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 10 00 00 00
+# 
+name: Zoom_F_out
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 11 00 00 00
+# 
+name: Dome
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 29 00 00 00
+# 
+name: Lens
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 22 00 00 00
+# 
+name: Zoom_S_in
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 20 00 00 00
+# 
+name: Zoom_S_out
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 21 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 3F 00 00 00
+# 
+name: Manual
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 33 00 00 00
+# 
+name: Far
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 35 00 00 00
+# 
+name: Near
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 0A 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 14 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 12 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 13 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 15 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 16 00 00 00
+# 
+name: L-Limit
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 31 00 00 00
+# 
+name: Scan
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 32 00 00 00
+# 
+name: R-Limit
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 18 00 00 00
+# 
+name: Home
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 37 00 00 00
+# 
+name: Tour
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 36 00 00 00
+# 
+name: Rev
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 34 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 2B 00 00 00
+# 
+name: BL
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 3E 00 00 00
+# 
+name: WB
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 3D 00 00 00
+# 
+name: AE
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 2C 00 00 00
+# 
+name: D_zoom
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 3A 00 00 00
+# 
+name: HDMI
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 17 00 00 00
+# 
+name: DVI
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 26 00 00 00
+# 
+name: Format
+type: parsed
+protocol: RC5
+address: 0B 00 00 00
+command: 25 00 00 00
